@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Validação de dados - CEP</title>
+<link href="css/estilo.css" rel="stylesheet">
+<script src="js/script10.js"></script>
+</head>
+
+<body>
+    <h1 class="titulo">Validação de dados - CEP</h1>
+    <form name="formvalida" class="formulario">
+        <input type="text" name="fnome" placeholder="Seu nome" class="dados" required>
+        <input type="email" name="femail" placeholder="Seu melhor e-mail" class="dados" required>
+        <input type="text" name="fcpf" placeholder="CPF" required class="meiodados" maxlength="14" onKeyPress="mascara(this, modelocpf)">
+        <input type="tel" name="fres" placeholder="Tel. Residencial" class="meiodados" onKeyPress="mascara(this, modelofoneres)" maxlength="14">
+        <input type="tel" name="fcel" placeholder="Tel. Celular" class="meiodados" maxlength="15" onKeyPress="mascara(this, modelofonecel)">
+        <input type="text" name="fcep" placeholder="CEP" required class="meiodados" maxlength="9" onKeyPress="mascara(this, modelocep)" onBlur="buscacep(this.value)">
+        <input type="text" name="fend" placeholder="Endereço" required class="dados" style="width: 81%;">
+        <input type="text" name="fnum" placeholder="Nº" required class="meiodados" style="width: 15%;">
+        <input type="text" name="fcomp" placeholder="Complemento" required class="meiodados">
+        <input type="text" name="fbairro" placeholder="Bairro" required class="meiodados">
+        <input type="text" name="fcidade" placeholder="Cidade" required class="meiodados" style="width: 86%;">
+        <input type="text" name="fuf" placeholder="UF" required class="meiodados" style="width: 10%;">
+        <input type="submit" value="Enviar" class="botao">
+    </form>
+</body>
+</html>

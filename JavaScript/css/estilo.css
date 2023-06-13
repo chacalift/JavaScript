@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #666666;
+}
+.titulo{
+	text-align: center;
+	font-size: 24px;
+	border-bottom: 2px solid #666666;
+}
+.campo{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    color: #666666;
+    outline: none;
+    background-color: #EEEEEE;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.formulario{
+    width: 500px;
+}
+.dados{
+    color: #999999;
+    background-color: #DDDDDD;
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 98%;
+    margin: 3px;
+}
+.meiodados{
+    color: #999999;
+    background-color: #DDDDDD;
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 48%;
+    margin: 3px;
+}
+.botao{
+    width: 98%;
+    margin: 3px;
+    padding: 15px;
+    border: 4px solid #666666;
+    background-color: #666666;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+}
+.botao:hover{
+    background-color: transparent;
+    border-color: #FFCC00;
+    color: #666666;
+}
+
+
